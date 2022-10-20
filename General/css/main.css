@@ -1,0 +1,69 @@
+.mainHeader {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.outputP {
+    margin: 10px;
+    padding: 5px;
+    text-decoration: solid;
+}
+
+.tableClass {
+    margin: 10px;
+}
+
+td {
+    border-top: solid black; 
+}
+
+tr {
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+}
+
+/* for tables with two columns */
+.rowtd {
+border-top: none;
+margin-bottom: 10px;
+padding: 15px;
+}
+
+
+/* forms */
+
+.formList li {
+    margin: 10px;
+    text-align: center;
+}
+
+.dropdown {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.formInput {
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+}
+
+.submitButton {
+    background-color: white;
+    padding: 5px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.submitButton:hover {
+    text-decoration: underline;
+}
+
+/* for the view postcodes section */
+#areaDropdown {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
