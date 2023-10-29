@@ -1,12 +1,10 @@
 <?php
-$username = 'root';
+$username = '';
 $password = '';
-$servername = 'localhost';
+$servername = '';
 $dbname = 'chippy';
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed");
-} else {
-    // nothing
 }
 ?>
